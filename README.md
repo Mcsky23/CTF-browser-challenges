@@ -50,7 +50,7 @@ echo "Attaching to d8 process $pid"
 gdb -p $pid
 ```
 
-If you want to debug using vscode, build `d8` like normal and then copy this configuration file into `.vscode/launch.json`:
+If you want to debug using vscode, make sure to add `symbol_level = 2` to `args.gn`, build `d8` and then copy this configuration file into `.vscode/launch.json`:
 
 ```json
 {

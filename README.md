@@ -79,5 +79,6 @@ If you want to debug using vscode, make sure to add `symbol_level = 2` to `args.
 }
 ```
 
+**Note:** some solutions are dependent on the libc version. I solved them on libc 2.35-0ubuntu3.9
 
 
